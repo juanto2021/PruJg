@@ -13,13 +13,13 @@ Once downloaded in the same workspace, locate the `build.xml` file of the **MVM 
 
 ...
 
-\<target name="deployDebug" depends="jar"\>
+<target name="deployDebug" depends="jar"\>
 
-  \<copy file="dist/${filename}" todir="${use.path}/lib/plugins"/\>
+  <copy file="dist/${filename}" todir="${use.path}/lib/plugins"/\>
   
-  \<copy file="dist/${filename}" todir="../../JuantoUse/use/lib/plugins"/\>
+  <copy file="dist/${filename}" todir="../../JuantoUse/use/lib/plugins"/\>
   
-\</target\>
+</target\>
 ```
 
 Next, select the use `[JuantoUse main]` project and create a **Debug configuration** by defining the following values in Main:
