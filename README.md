@@ -46,6 +46,8 @@ Press Validate and verify that through the 'standard' validation of **USE**, the
 To run MVM, use the **Plugins->ValidationMVM->ValidationMVM** option or locate the green icon containing an uppercase `M`.
   
 At this point you will already see a dialog box with the tabs:
+    
+![](https://github.com/juanto2021/PruJg/blob/main/img02.png)
   
 ## Errors 
 
